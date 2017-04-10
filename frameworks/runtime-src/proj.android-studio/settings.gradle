@@ -1,0 +1,4 @@
+include ':libcocos2dx'
+project(':libcocos2dx').projectDir = new File('/Volumes/Data/cocos2d-x-3.14/cocos/platform/android/libcocos2dx')
+include ':TetrisJs'
+project(':TetrisJs').projectDir = new File(settingsDir, 'app')

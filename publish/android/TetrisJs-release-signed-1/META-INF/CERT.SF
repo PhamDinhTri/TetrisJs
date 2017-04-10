@@ -1,0 +1,413 @@
+Signature-Version: 1.0
+X-Android-APK-Signed: 2
+SHA1-Digest-Manifest: eO26Am4RVsRo4c7Ep/jCDhwj59M=
+Created-By: 1.0 (Android)
+
+Name: assets/res/splash.png
+SHA1-Digest: uYdmJqf2gjVEue/3bV7s8wnnqso=
+
+Name: assets/script/jsb_pool.jsc
+SHA1-Digest: rsHe/MnGzvPiH4ROKSQAXR5EEyo=
+
+Name: assets/script/studio/jsb_cocos2d_studio.jsc
+SHA1-Digest: pN4dAU3P378pJMIL0FZntEkd7xU=
+
+Name: assets/script/3d/jsb_cocos2d_3d.jsc
+SHA1-Digest: muM1L4MyO2qF0KcoprvJrukSgBA=
+
+Name: assets/script/debugger/webconsole/utils.jsc
+SHA1-Digest: Hx+6xag/BRItKUlegxhcqXTYRlc=
+
+Name: assets/res/GamePlay/gameover.png
+SHA1-Digest: oDEMz3RutUP0CdyPaWpTR4xE0pA=
+
+Name: assets/script/jsb_debugger.jsc
+SHA1-Digest: 4c3oBwZtwZvMeaoz5QEvBZgssKU=
+
+Name: assets/res/GamePlay/btnMainmenu.png
+SHA1-Digest: YaW5cICvTh2XsyeeQp/4ruTfla4=
+
+Name: assets/script/jsb_opengl.jsc
+SHA1-Digest: p9tdarCugfnyhjmzEUPPalltus8=
+
+Name: assets/script/jsb_audioengine.jsc
+SHA1-Digest: Et10TUMb7GUBGEKF5QHJXjOm8gk=
+
+Name: assets/res/SelectMode/advanture.png
+SHA1-Digest: Tg6IW/yRCalbF/yvOY22ca17bMY=
+
+Name: assets/script/jsb_common.jsc
+SHA1-Digest: 42TeNz/ZqZXEQ4o59TrWRVHRogc=
+
+Name: assets/res/GamePlay/map1.tmx
+SHA1-Digest: OOjmMvypuSbHlTPOje7DvvCbulI=
+
+Name: assets/res/tetris/Stop_FastDown_new.wav
+SHA1-Digest: s13YbuDyco851N1rWT8Nk7ZvaZE=
+
+Name: assets/script/debugger/README.md
+SHA1-Digest: UxbdZyo17SFSXJSy67bbGqLbUWw=
+
+Name: assets/res/GamePlay/down.png
+SHA1-Digest: EBbSTUOxWFDjJUuS7dm7rOJbWaA=
+
+Name: assets/res/SelectMode/classic.png
+SHA1-Digest: IYJPJEXNjbL5b2AFuUCTzBieK/c=
+
+Name: assets/src/config.jsc
+SHA1-Digest: 47l7Ddj0cx1LliT3US5rTE74oKA=
+
+Name: assets/script/debugger/actors/webconsole.jsc
+SHA1-Digest: q1+ljrbSw148Bf72gs/MJ3XBY9w=
+
+Name: assets/res/GamePlay/help.jpg
+SHA1-Digest: kwDAWtkABa0WNBTOWp4zotk8k54=
+
+Name: assets/script/ccui/jsb_ccui_property_impls.jsc
+SHA1-Digest: 6ztQU/FFVsV0EogKIPtz0u7lmio=
+
+Name: assets/script/navmesh/jsb_navmesh.jsc
+SHA1-Digest: fjEsVQ5LBhNSY0hKRQSs+0szs3U=
+
+Name: assets/res/SelectMap/4.png
+SHA1-Digest: E3bea43Lfg7ALAwmgN7pRsVmVZY=
+
+Name: assets/script/chipmunk/jsb_chipmunk_constants.jsc
+SHA1-Digest: wfNVlplmZ9DYpdxKDYeMn8RmMZY=
+
+Name: assets/res/GamePlay/map12.tmx
+SHA1-Digest: uo9jdJcr2s/R3XfoBzD3vBCwWu4=
+
+Name: assets/res/GamePlay/map5.tmx
+SHA1-Digest: dHYutWaET99wvsOFaTC2ET2QPQg=
+
+Name: assets/res/SelectMap/10.png
+SHA1-Digest: upsa/xF6YuBAtDHhEqQFW4v+aJ8=
+
+Name: assets/script/debugger/event-emitter.jsc
+SHA1-Digest: D7vFg3wcJYBXUXgkc+k6Re+aJ/o=
+
+Name: assets/script/studio/parsers/timelineParser-1.x.jsc
+SHA1-Digest: LYBfn5pPUzVk43MC8zE64BPiwL0=
+
+Name: assets/script/debugger/actors/script.jsc
+SHA1-Digest: KvLwQsKHqEjX4AHaQBLf1MLIea4=
+
+Name: assets/res/GamePlay/av1.png
+SHA1-Digest: HmcE23Dp1OBwmL3rS2tCaPwy+OY=
+
+Name: assets/script/jsb_spine.jsc
+SHA1-Digest: DoubQVVhqv7K9dCm6W5H+vx711A=
+
+Name: res/mipmap-hdpi-v4/ic_launcher.png
+SHA1-Digest: ppve9+ao7NRUaqbNyIxkvDaxULQ=
+
+Name: assets/res/GamePlay/particle.plist
+SHA1-Digest: r5nSvpGYo8QabUCdT9ROpoz8E9k=
+
+Name: assets/res/SelectMap/6.png
+SHA1-Digest: fl+odDXFFq0t4HnqqAQ0QPqwMb0=
+
+Name: assets/res/GamePlay/rate.png
+SHA1-Digest: z8W5Ek/aCwkZT9RfAonLFUnMLPE=
+
+Name: assets/script/studio/parsers/compatible.jsc
+SHA1-Digest: ZgKsWCJl9fwrIYPyc/zddzswjC8=
+
+Name: assets/script/3d/jsb_cocos2d_3d_ext.jsc
+SHA1-Digest: JHwIRffPQQkBWbjDK/zw9a+QFE4=
+
+Name: assets/res/GamePlay/map3.tmx
+SHA1-Digest: Wmc8dMoFaFxRXfUcCreooqWZCF4=
+
+Name: resources.arsc
+SHA1-Digest: tKhwbW32QajSO7zntrbxlqR9h3s=
+
+Name: AndroidManifest.xml
+SHA1-Digest: vP2SGjz5b0uG+kvp+hv19Q/tlFE=
+
+Name: assets/res/loading.jsc
+SHA1-Digest: wDEfWh4Icg3cxpmUcHohPcFzYGs=
+
+Name: assets/res/tetris/Eeat_Score_new.mp3
+SHA1-Digest: 6hKrQkHeYFVlhKDq/YELmNnhWOw=
+
+Name: assets/script/debugger/transport.jsc
+SHA1-Digest: fgv19vKVH8LNLEoov5N5TEskxZI=
+
+Name: assets/res/SelectMap/7.png
+SHA1-Digest: JTCazdgAgg7xMSvB0H+j6xLatMA=
+
+Name: assets/src/SplashScene.jsc
+SHA1-Digest: o6O74z4L5JPRzQU7ryEyWW8mDY8=
+
+Name: assets/script/jsb_cocosbuilder.jsc
+SHA1-Digest: YfFPxfy/CPcJa6N5rRTNdFGaCL4=
+
+Name: assets/script/jsb_property_apis.jsc
+SHA1-Digest: 1fwBftfGqNYOqL5t6huCLBJ5bIo=
+
+Name: assets/script/studio/parsers/uiParser-1.x.jsc
+SHA1-Digest: kr2f+jiiobnGLLZhSrxEan9WoGM=
+
+Name: assets/res/GamePlay/map6.tmx
+SHA1-Digest: 94OivRUE++lSeEFp1M4QV1157vU=
+
+Name: assets/src/MainMenuScene.jsc
+SHA1-Digest: tECVT89kyvLLQag0dRRC+jI21qM=
+
+Name: assets/res/MainMenu/bg.png
+SHA1-Digest: MgbfrXEaASq//51NlU5fLwcXNb0=
+
+Name: assets/script/studio/parsers/action-1.x.jsc
+SHA1-Digest: Px4hIqw6DV86uY0mJ5zSp//5wPM=
+
+Name: assets/res/GamePlay/av4.png
+SHA1-Digest: DbO1gQ42IuiAGedrLfndIjb3Z9U=
+
+Name: assets/res/MainMenu/btnPlay.png
+SHA1-Digest: Mx6jUeAAEzMxt5FNBtH7GiHKlQs=
+
+Name: assets/script/debugger/core/promise.jsc
+SHA1-Digest: uUCdeUVke+EuQ6edYFs6Fdx/Jv8=
+
+Name: assets/res/GamePlay/av6.png
+SHA1-Digest: +2KYmC8unrada6RNqqIq7mW1FT8=
+
+Name: assets/res/GamePlay/bg.png
+SHA1-Digest: q4pQwJdcJmJQhlAt4W7iU0gFwJg=
+
+Name: res/mipmap-mdpi-v4/ic_launcher.png
+SHA1-Digest: SSFJUSexlLCPuTpITN9/WR2IDRM=
+
+Name: assets/res/SelectMap/bg.png
+SHA1-Digest: OtGTxZF+z1u+uqdkysoOrB4fwS0=
+
+Name: assets/script/debugger/DevToolsUtils.jsc
+SHA1-Digest: WeNOtrupJL7djaRHfysoUc9iByw=
+
+Name: assets/script/jsb_cocos2d_constants.jsc
+SHA1-Digest: 3EaUJYujM2qK9FWAiUHcQtikucw=
+
+Name: assets/res/GamePlay/back.png
+SHA1-Digest: Mqg9Pak8IC/20wD5WT4n2RKu8Sw=
+
+Name: assets/res/GamePlay/map11.tmx
+SHA1-Digest: ne1w8k4PeCERzo0HyNvXK1mmcc8=
+
+Name: assets/res/GamePlay/gamepause.png
+SHA1-Digest: MN3jPCrkKasp+uFGOTK5Dx7mlKk=
+
+Name: assets/res/tetris/bgmusic.mp3
+SHA1-Digest: cjYa0qKytTCMLV811Nzzg0amf94=
+
+Name: assets/res/SelectMap/9.png
+SHA1-Digest: a+RfxXZvous6xHBRvr0dnZaiPF0=
+
+Name: assets/res/tetris/Move_Brick_new.wav
+SHA1-Digest: yPDRhkCROZmEGmtfxBWtFc+e6Uw=
+
+Name: assets/script/studio/jsb_studio_load.jsc
+SHA1-Digest: fLOqoHNGDcnNQNSQpFvasVsEQUY=
+
+Name: assets/script/studio/parsers/timelineParser-2.x.jsc
+SHA1-Digest: 1nGesQ+m4NFLN7qpy5WzKMxwT2s=
+
+Name: assets/res/GamePlay/map8.tmx
+SHA1-Digest: KLqyZb41347fnmePOsQ9TrCpBVc=
+
+Name: assets/script/physicsSprite/jsb_physicsSprite.jsc
+SHA1-Digest: OoNghuIJ8F8p0HOXixx88aYfmdA=
+
+Name: assets/script/studio/parsers/action-2.x.jsc
+SHA1-Digest: DfML5vWZUUnqk+O8qWnC70q1Si4=
+
+Name: assets/script/extension/jsb_ext_create_apis.jsc
+SHA1-Digest: hbY8evv1rjYGm3gPLUQWwcOkFz0=
+
+Name: assets/script/jsb_create_apis.jsc
+SHA1-Digest: hSOf/wMZEnI+0lR60hThRzYqiJw=
+
+Name: assets/res/SelectMap/2.png
+SHA1-Digest: 5I/VOGQJUPXBfDA1DylEL1i+9ac=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: ifLGaSVjWjUQnAlSBH6JailuOiw=
+
+Name: assets/script/studio/jsb_studio_property_apis.jsc
+SHA1-Digest: fVTvYSEPwpumMK2JnmZ/zoyg9IM=
+
+Name: assets/res/GamePlay/btnResume.png
+SHA1-Digest: 6/eQOvGNIviaIMjwjHtSNghQ5AQ=
+
+Name: assets/script/ccui/jsb_ccui_deprecated.jsc
+SHA1-Digest: d37VPmLg88gOwEVoQo23AtpS+VA=
+
+Name: assets/res/SelectMode/bg.png
+SHA1-Digest: qzL16GsaW7zmE8xAzBVximOS5CQ=
+
+Name: assets/res/GamePlay/map2.tmx
+SHA1-Digest: 04h/kVK4AAjSrq4tPrmUpmvvcxY=
+
+Name: assets/res/SelectMap/3.png
+SHA1-Digest: QkbqBS0+dyf/9maIlKFmg0TGDDY=
+
+Name: assets/script/jsb_opengl_constants.jsc
+SHA1-Digest: q/1FkZJ3nOaXQMtjaxOiWevpup8=
+
+Name: assets/script/jsb.jsc
+SHA1-Digest: KUR8BscxgItKp6T467pssIRgb10=
+
+Name: assets/res/SelectMode/puzzle.png
+SHA1-Digest: x06hEdZWZ2CEdRb+UhBwMufR9Sw=
+
+Name: assets/script/debugger/actors/root.jsc
+SHA1-Digest: +u6qRvX1+3K0fCP84t7Xk62ctus=
+
+Name: assets/script/studio/jsb_studio_boot.jsc
+SHA1-Digest: +Z9GJ3IVeB+CnqiNGxvxyJVWgY0=
+
+Name: assets/script/jsb_prepare.jsc
+SHA1-Digest: EITtokxtvEDNbTkkfBo0kBM1lcg=
+
+Name: assets/script/jsb_loaders.jsc
+SHA1-Digest: et0xwDyIt+IMuLHDg7VKJxo4Lto=
+
+Name: lib/armeabi-v7a/libcocos2djs.so
+SHA1-Digest: xwzS1wp4LxroDUFLxbHn02C2BK0=
+
+Name: assets/res/GamePlay/pause.png
+SHA1-Digest: KlzWGKMR2ePfd7UfpM35jt/hrrw=
+
+Name: assets/script/ccui/jsb_ccui_create_apis.jsc
+SHA1-Digest: 8g9tfXjsL9cZ1yxn7Niw+lM5xHo=
+
+Name: assets/res/GamePlay/btnReplay.png
+SHA1-Digest: 8zxo1K3bV9iv0lbFnFsO7doR5A8=
+
+Name: assets/script/debugger/actors/utils/ScriptStore.jsc
+SHA1-Digest: ZAiEJbf4p4tkRvP04Tlm4z71WyY=
+
+Name: assets/res/GamePlay/turn.png
+SHA1-Digest: hq7qzPUb8PkbHPKetZxWOa8Nhoo=
+
+Name: assets/res/SelectMap/lock.png
+SHA1-Digest: wWLyMEHcelDm9MwWFv9tMruBOdw=
+
+Name: assets/script/physics3d/jsb_physics3d.jsc
+SHA1-Digest: OSCTxhoGj8sf0ExAQdzNZxjYizE=
+
+Name: assets/res/SelectMap/5.png
+SHA1-Digest: xawx3ueYcOxlb7CCwG/JNMYwcGY=
+
+Name: assets/res/SelectMap/11.png
+SHA1-Digest: X4/sZSKxSQoJycM/1B+pH0SQdnE=
+
+Name: assets/script/debugger/actors/common.jsc
+SHA1-Digest: ubamcJFX8hEzvIrJ71YNijm86Ro=
+
+Name: assets/res/GamePlay/map4.tmx
+SHA1-Digest: eT8/+aJTRyojNyqDdnE9pH2ZRw8=
+
+Name: assets/script/jsb_boot.jsc
+SHA1-Digest: QDbrRxyMX+INDMhGudINMWmN5jc=
+
+Name: assets/res/GamePlay/av2.png
+SHA1-Digest: u/+tr+uzkisq5iGOUdRX3IkwYGI=
+
+Name: assets/res/GamePlay/map7.tmx
+SHA1-Digest: XLE5GmaAIGd8StSXDvZYlG9iUH8=
+
+Name: assets/script/ccui/jsb_ccui_property_apis.jsc
+SHA1-Digest: UzjLqS407gdTtiqLITMlV4LrII4=
+
+Name: assets/script/chipmunk/jsb_chipmunk.jsc
+SHA1-Digest: 8e9+D/gwmqhFcRv2nnietnOdW5U=
+
+Name: assets/script/studio/parsers/scene-1.x.jsc
+SHA1-Digest: 3GqZxAW4biD+sM2KJrJrPzVyWuY=
+
+Name: assets/script/debugger/actors/object.jsc
+SHA1-Digest: D/FElyzTx4POx2tSadn2gd741ew=
+
+Name: assets/script/studio/jsb_studio_create_apis.jsc
+SHA1-Digest: t442wkRiuf524gvI2Mj0VGpYh4s=
+
+Name: assets/main.jsc
+SHA1-Digest: F7QHUzINLDsTATwPVJV2393v9zw=
+
+Name: assets/res/SelectMap/12.png
+SHA1-Digest: WHz+Eu7NmPu2zxiXsEM/c/MYUjI=
+
+Name: assets/res/tetris/Rotate_Brick_new.wav
+SHA1-Digest: gFOQRmHC9DYx7MtwwXUwmcV98sY=
+
+Name: assets/res/GamePlay/rank.png
+SHA1-Digest: bvTfpZkoizthvojEWKhAud7GULQ=
+
+Name: assets/res/GamePlay/av3.png
+SHA1-Digest: hmkJF7DQDQguWnbLVi/XJa+6Rhg=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher.png
+SHA1-Digest: WlPyMSE/RCBE7GqKVZfzxcv+AtU=
+
+Name: assets/script/debugger/main.jsc
+SHA1-Digest: CsRU6C87ChH4XKzWsHQrXyXZEIA=
+
+Name: assets/res/GamePlay/av5.png
+SHA1-Digest: 5Il0PB7Mqpw0mnikYtU4xtkVEUM=
+
+Name: assets/res/GamePlay/win.png
+SHA1-Digest: Dax2xkPuab6TtUKYSwGm5KLq5Os=
+
+Name: assets/script/jsb_cocos2d.jsc
+SHA1-Digest: 9ld/nVkvGVHn5A0FTjL5/guvHVI=
+
+Name: assets/script/ccui/jsb_cocos2d_ui.jsc
+SHA1-Digest: VLK0XLqFE1Jl3uL6lLO+BnGhxnc=
+
+Name: assets/res/SelectMap/8.png
+SHA1-Digest: XzrXXoAO//cviZ+wSykzxf0NbaM=
+
+Name: assets/script/extension/jsb_cocos2d_extension.jsc
+SHA1-Digest: VFcqSaIqdhzh69gHUDmpTNn2zWI=
+
+Name: assets/res/GamePlay/home.png
+SHA1-Digest: 1+BRF7ny496g6FAkgx6ggkScCNI=
+
+Name: assets/src/resource.jsc
+SHA1-Digest: uCYrvSqk3KJWS4PLoGg0ZAOremE=
+
+Name: assets/script/debugger/actors/utils/TabSources.jsc
+SHA1-Digest: IqNtjDkY42TtUPN+MwtyG0bkCOU=
+
+Name: assets/res/GamePlay/replay.png
+SHA1-Digest: GGk95ZZM3iY9qaLuSwNCRjALtH0=
+
+Name: assets/script/jsb_deprecated.jsc
+SHA1-Digest: Ase+RDTzgUFun5yjZMZqk6C/XDI=
+
+Name: assets/res/GamePlay/map9.tmx
+SHA1-Digest: HhpqYPQc5LxhqnxoYsaHbSMMR94=
+
+Name: assets/project.json
+SHA1-Digest: 4g1i74xt7XNo5tGe+g05u9bQYsw=
+
+Name: assets/res/SelectMap/1.png
+SHA1-Digest: IwvL41Bf3iIW8IXd7i57WVb5GXA=
+
+Name: assets/res/GamePlay/av7.png
+SHA1-Digest: fdAWblF+wkcokl8JfFVc82Sy4sU=
+
+Name: assets/script/extension/jsb_ext_property_apis.jsc
+SHA1-Digest: Vri6D9XNBVYTEPZ36WOGy5gkcws=
+
+Name: assets/res/GamePlay/map10.tmx
+SHA1-Digest: NnAo+jERGJHV250ky0PfQI/IJ9Y=
+
+Name: classes.dex
+SHA1-Digest: 6ZOTAel4Mz2aT62UIuWCPLEZNsc=
+
+Name: assets/script/jsb_property_impls.jsc
+SHA1-Digest: yzNg9ZrBfGaOGBcsVVZ4zb7K/3w=
+

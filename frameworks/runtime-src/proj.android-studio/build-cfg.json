@@ -1,0 +1,29 @@
+{
+    "ndk_module_path" :[
+        "/Volumes/Data/cocos2d-x-3.14",
+        "/Volumes/Data/cocos2d-x-3.14/cocos",
+        "/Volumes/Data/cocos2d-x-3.14/external"
+    ],
+    "copy_resources": [
+        {
+            "from": "../../../src",
+            "to": "src"
+        },
+        {
+            "from": "../../../res",
+            "to": "res"
+        },
+        {
+            "from": "../../../main.js",
+            "to": ""
+        },
+        {
+            "from": "../../../project.json",
+            "to": ""
+        },
+        {
+            "from": "/Volumes/Data/cocos2d-x-3.14/cocos/scripting/js-bindings/script",
+            "to": "script"
+        }
+    ]
+}
