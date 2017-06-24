@@ -1,8 +1,8 @@
 /**
  * Created by tripham on 2/28/17.
  */
- MaxI = 27;
- MaxJ = 10;
+MaxI = 27;
+MaxJ = 10;
 var TetrisGameLogic = cc.Node.extend({
     Board: [],
     mysprite: [],
@@ -44,7 +44,7 @@ var TetrisGameLogic = cc.Node.extend({
     CapNhatLaiToaDo: function (hang) {
         for (var i = hang; i > 0; i--)
             for (var j = 0; j < MaxJ; j++) {
-            var temp = this.Board[i - 1][j];
+                var temp = this.Board[i - 1][j];
                 this.Board[i][j] = this.Board[i - 1][j];
             }
     },
@@ -86,7 +86,8 @@ var TetrisGameLogic = cc.Node.extend({
         for (var i = 0; i < pkhoigach.Row; i++)
             for (var j = 0; j < pkhoigach.Col; j++)
                 if (pkhoigach.arr[i][j] == 1) {
-                    if (this.Left(pkhoigach.iBoard + i, pkhoigach.jBoard + j) == 0 || pkhoigach.iBoard <= 3) return;
+                    if (this.Left(pkhoigach.iBoard + i, pkhoigach.jBoard + j) == 0 || pkhoigach.iBoard <= 3)
+                        return;
                 }
 
         pkhoigach.jBoard -= 1; //Dich vi tri cua bang trang thai sang trai 1 so voi Board[22][10].
@@ -95,7 +96,8 @@ var TetrisGameLogic = cc.Node.extend({
         for (var i = 0; i < pkhoigach.Row; i++)
             for (var j = 0; j < pkhoigach.Col; j++)
                 if (pkhoigach.arr[i][j] == 1) {
-                    if (this.Right(pkhoigach.iBoard + i, pkhoigach.jBoard + j) == 0 || pkhoigach.iBoard <= 3) return;
+                    if (this.Right(pkhoigach.iBoard + i, pkhoigach.jBoard + j) == 0 || pkhoigach.iBoard <= 3)
+                        return;
                 }
 
         pkhoigach.jBoard += 1; //Dich vi tri cua bang trang thai sang trai 1 so voi Board[22][10].
@@ -104,7 +106,8 @@ var TetrisGameLogic = cc.Node.extend({
         for (var i = 0; i < pkhoigach.Row; i++)
             for (var j = 0; j < pkhoigach.Col; j++)
                 if (pkhoigach.arr[i][j] == 1) {
-                    if (this.Down(pkhoigach.iBoard + i, pkhoigach.jBoard + j) == 0) return 0;
+                    if (this.Down(pkhoigach.iBoard + i, pkhoigach.jBoard + j) == 0)
+                        return 0;
                 }
         pkhoigach.iBoard += 1; //Roi xuong 1 so voi Board[22][10]
         return 1;
@@ -181,8 +184,7 @@ var TetrisGameLogic = cc.Node.extend({
                 sohang += 1;
                 this.CapNhatLaiToaDo(pkhoigach.iBoard + i);
                 eatScore = 1;
-            }
-            else {
+            } else {
                 i = i - 1;
             }
         } while (i >= 0);
@@ -210,7 +212,7 @@ var TetrisGameLogic = cc.Node.extend({
     },
 
     Loai: function () {
-        var x = wn.RandomInt(0,6);
+        var x = wn.RandomInt(0, 6);
         //cc.log("Loại"+x);
         switch (x) {
             case 0:
@@ -247,12 +249,10 @@ var TetrisGameLogic = cc.Node.extend({
             for (var j = 0; j < MaxJ; j++) {
                 var spr = this.mysprite[dem];
                 if (this.Board[i][j] > 0) {
-
                     spr.setTexture(wn.TetrisGameScene_Res["av" + this.Board[i][j].toString()]);
                     spr.setVisible(true);
                     spr.setPosition(j * wn.config.BRICK_SIZE + wn.config.OFFSETX, wn.config.OFFSETY - i * wn.config.BRICK_SIZE);
-                }
-                else {
+                } else {
                     spr.setVisible(false);
                 }
                 dem += 1;
@@ -266,7 +266,7 @@ var TetrisGameLogic = cc.Node.extend({
                 this.Board[i][j] = this.Board[i + 1][j];
             }
         for (var j = 0; j < MaxJ; j++) {
-            var color = wn.RandomInt(0,6);
+            var color = wn.RandomInt(0, 6);
             this.Board[MaxI - 1][j] = color;
         }
         this.updateGach();
@@ -283,5 +283,4 @@ var TetrisGameLogic = cc.Node.extend({
             }
         return true;
     }
-
 });

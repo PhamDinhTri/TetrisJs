@@ -1,6 +1,6 @@
 var SplashLayer = cc.Layer.extend({
-    sprite:null,
-    ctor:function () {
+    sprite: null,
+    ctor: function () {
         //////////////////////////////
         // 1. super init first
         this._super();
@@ -16,31 +16,27 @@ var SplashLayer = cc.Layer.extend({
         this.sprite.y = wn.ui.posBG.y;
         this.addChild(this.sprite, 0);
 
-        this.scheduleOnce(this.PlayGame,1,"playgame");
+        this.scheduleOnce(this.PlayGame, 1, "playgame");
 
         return true;
     },
 
-    PlayGame:function (dt){
-
+    PlayGame: function (dt) {
         wn.replaceScene("MainMenuScene");
-
     },
 });
 
 var SplashScene = wn.BaseScene.extend({
-    ctor:function () {
+    ctor: function () {
         this._super();
         this.Res = wn.SplashScene_Res;
         this.jsList = wn.SplashScene_JS;
-        this.setOnLoadDone( function (err) {
-           // if(err) return ;
+        this.setOnLoadDone(function (err) {
             var layer = new SplashLayer();
             this.addChild(layer);
         });
         this.loadResoures();
     },
-
 });
 
 wn.SplashScene_Res = {

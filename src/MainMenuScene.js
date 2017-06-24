@@ -3,8 +3,8 @@
  */
 
 var MainMenuLayer = cc.Layer.extend({
-    bg:null,
-    ctor:function () {
+    bg: null,
+    ctor: function () {
         //////////////////////////////
         // 1. super init first
         this._super();
@@ -16,8 +16,8 @@ var MainMenuLayer = cc.Layer.extend({
         var size = cc.winSize;
         this.bg = new cc.Sprite(wn.MainMenuScene_Resources.bg_png);
         this.addChild(this.bg);
-        this.bg.x = size.width/2;
-        this.bg.y = size.height/2;
+        this.bg.x = size.width / 2;
+        this.bg.y = size.height / 2;
 
         wn.playBgMusic(res.Sounds.bgmusic_mp3);
 
@@ -37,29 +37,26 @@ var MainMenuLayer = cc.Layer.extend({
 
         btnPlay.runAction(new cc.RepeatForever(sqe));
 
-        if(cc.sys.os==cc.sys.OS_ANDROID){
+        if (cc.sys.os == cc.sys.OS_ANDROID) {
             cc.eventManager.addListener({
                 event: cc.EventListener.KEYBOARD,
                 onKeyReleased: function (key, event) {
-                    if (key==cc.KEY.back)
-                    {
+                    if (key == cc.KEY.back) {
                         cc.director.end();
                     }
                 }
             }, this);
         }
-
-
         return true;
     }
 });
 
 var MainMenuScene = wn.BaseScene.extend({
-    onEnter:function () {
+    onEnter: function () {
         this._super();
         this.Res = wn.MainMenuScene_Resources;
         this.jsList = wn.MainMenuScene_JsList;
-        this.setOnLoadDone( function (err) {
+        this.setOnLoadDone(function (err) {
             //if(err) return ;
             var layer = new MainMenuLayer();
             this.addChild(layer);
@@ -69,7 +66,7 @@ var MainMenuScene = wn.BaseScene.extend({
 });
 
 wn.MainMenuScene_Resources = {
-    bg_png:"res/MainMenu/bg.png",
-    btnPlay_png:"res/MainMenu/btnPlay.png"
+    bg_png: "res/MainMenu/bg.png",
+    btnPlay_png: "res/MainMenu/btnPlay.png"
 };
 wn.MainMenuScene_JsList = [];

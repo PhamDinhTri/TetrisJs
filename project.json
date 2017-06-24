@@ -1,31 +1,27 @@
 {
-    "project_type": "javascript",
-
-    "debugMode" : 1,
-    "showFPS" : false,
-    "frameRate" : 60,
-    "noCache" : false,
-    "id" : "gameCanvas",
-    "renderMode" : 0,
-    "engineDir":"frameworks/cocos2d-html5",
-
-    "modules" : ["cocos2d","extensions"],
-
-    "jsList" : [
-        "src/WhiteNight.js",
-        "src/WNBaseScene.js",
-        "src/GameOverLayer.js",
-        "src/GamePauseLayer.js",
-        "src/GameWinLayer.js",
-        "src/MainMenuScene.js",
-        "src/resource.js",
-        "src/SelectMapLayer.js",
-        "src/SelectModeScene.js",
-        "src/SimpleRecognizer.js",
-        "src/SplashScene.js",
-        "src/TetrisBrick.js",
-        "src/TetrisGameLogic.js",
-        "src/TetrisGameScene.js"
-
-    ]
+  "project_type": "javascript",
+  "debugMode" : 1,
+  "showFPS" : false,
+  "frameRate" : 60,
+  "noCache" : false,
+  "id" : "gameCanvas",
+  "renderMode" : 0,
+  "engineDir":"frameworks/cocos2d-html5",
+  "modules" : ["cocos2d","extensions"],
+  "jsList" : [
+    "src/WhiteNight.js",
+    "src/WNBaseScene.js",
+    "src/GameOverLayer.js",
+    "src/GamePauseLayer.js",
+    "src/GameWinLayer.js",
+    "src/MainMenuScene.js",
+    "src/resource.js",
+    "src/SelectMapLayer.js",
+    "src/SelectModeScene.js",
+    "src/SimpleRecognizer.js",
+    "src/SplashScene.js",
+    "src/TetrisBrick.js",
+    "src/TetrisGameLogic.js",
+    "src/TetrisGameScene.js"
+  ]
 }

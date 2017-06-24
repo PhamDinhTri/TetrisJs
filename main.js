@@ -69,14 +69,11 @@ cc.game.onStart = function(){
 
     //cc.view.setDesignResolutionSize(960, 1280, cc.ResolutionPolicy.SHOW_ALL);
     //
-    if(cc.sys.browserType)
-    {
+    if(cc.sys.browserType) {
         cc.view.setDesignResolutionSize(960, 1280, cc.ResolutionPolicy.SHOW_ALL);
     } else {
         cc.view.setDesignResolutionSize(960, 1280, cc.ResolutionPolicy.NO_BORDER);
     }
-
-
 
     // The game will be resized when browser size change
     cc.view.resizeWithBrowserSize(true);

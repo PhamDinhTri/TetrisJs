@@ -44,8 +44,7 @@ var TetrisGameScene = wn.BaseScene.extend({
             var layer = new TetrisGameLayer();
             this.addChild(layer);
         });
-        if(wn.LoadDone)
-        {
+        if (wn.LoadDone) {
             var layer = new TetrisGameLayer();
             this.addChild(layer);
         }
@@ -77,7 +76,7 @@ var TetrisGameLayer = cc.Layer.extend({
             help.setPosition(300, wn.config.SCREEN_HEIGHT_DESIGN * 0.5);
             help.runAction(new cc.Sequence(new cc.MoveTo(0.5, wn.ui.posBG),
                 new cc.DelayTime(1),
-                new cc.MoveTo(0.5,cc.p(wn.config.SCREEN_WIDTH_DESIGN + 300, wn.config.SCREEN_HEIGHT_DESIGN * 0.5)),
+                new cc.MoveTo(0.5, cc.p(wn.config.SCREEN_WIDTH_DESIGN + 300, wn.config.SCREEN_HEIGHT_DESIGN * 0.5)),
                 new cc.CallFunc(function () {
                     help.removeFromParent();
                 })));
@@ -108,8 +107,7 @@ var TetrisGameLayer = cc.Layer.extend({
                     var pauselayer = new GamePauseLayer(cc.color(0, 0, 0, 200));
                     self.addChild(pauselayer, 99);
                 }
-                if(key == cc.KEY.w)
-                {
+                if (key == cc.KEY.w) {
                     wn.playSound(res.Sounds.Rotate_Brick_new_wav);
                     self.game.XoayKhoiGach(self.currKhoi);
                 }
@@ -127,22 +125,22 @@ var TetrisGameLayer = cc.Layer.extend({
                 //
                 // }
             },
-            onKeyPressed:function (key,event) {
+            onKeyPressed: function (key, event) {
                 if (!self.isPlaying) {
                     return;
                 }
                 if (self.getChildByName("SelectMap")) {
                     return;
                 }
-                if (key == cc.KEY.a){
-                    self.schedule(self.sangtrai,0.1);
+                if (key == cc.KEY.a) {
+                    self.schedule(self.sangtrai, 0.1);
                 }
-                if (key == cc.KEY.s){
-                    self.schedule(self.roixuong,0.05);
+                if (key == cc.KEY.s) {
+                    self.schedule(self.roixuong, 0.05);
                 }
 
-                if (key == cc.KEY.d){
-                    self.schedule(self.sangphai,0.1);
+                if (key == cc.KEY.d) {
+                    self.schedule(self.sangphai, 0.1);
                 }
             }
         }, this);
@@ -267,7 +265,7 @@ var TetrisGameLayer = cc.Layer.extend({
             case ccui.Widget.TOUCH_BEGAN:
                 //SoundGame::getInstance()->playEffect("tetris/MoveFast_Brick_new.wav");
                 this.game.RoiXuong(this.currKhoi);
-                this.schedule(this.roixuong,0.05);
+                this.schedule(this.roixuong, 0.05);
                 break;
             case ccui.Widget.TOUCH_MOVED:
                 break;
@@ -305,8 +303,7 @@ var TetrisGameLayer = cc.Layer.extend({
                 // AdMob::showFullGame();
                 this.gameover();
                 return;
-            }
-            else if (ketqua == 1) {
+            } else if (ketqua == 1) {
                 if (wn.GameMode.Mode == wn.GameMode.MODE_PUZZLE) {
                     if (this.game.isWin()) {
 
@@ -406,14 +403,12 @@ var TetrisGameLayer = cc.Layer.extend({
         var target = event.getCurrentTarget();
         if (target._currentTouchID == touch.getID()) {
             target._currentTouchID = -1;
-        }
-        else {
-            return;
-        }
+        } else return;
+
         //Point pos = touch->getLocation();
 //	recognizer->movePoint(pos);
         //log("%d,%d", recognizer->getDistance(), recognizer->getPoints().size());
-        if (cc.pDistance(touch.getLocation(),touch.getStartLocation()) < 3) {
+        if (cc.pDistance(touch.getLocation(), touch.getStartLocation()) < 3) {
             wn.playSound(res.Sounds.Rotate_Brick_new_wav);
             target.game.XoayKhoiGach(target.currKhoi);
         }

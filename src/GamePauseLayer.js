@@ -2,7 +2,7 @@
  * Created by tripham on 3/1/17.
  */
 var GamePauseLayer = cc.LayerColor.extend({
-    ctor:function (color, width, height) {
+    ctor: function (color, width, height) {
         this._super(color, width, height);
         var self = this;
         var gamePauseTitle = new cc.Sprite(wn.TetrisGameScene_Res.gamepause_png);
